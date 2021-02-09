@@ -8,7 +8,7 @@ function Sidebar() {
 	const [{ playlists }, dispatch] = useStateValue();
 
 	return (
-		<div className='sidebar'>
+		<aside className='sidebar'>
 			<img
 				className='sidebar__logo'
 				src='https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg'
@@ -25,7 +25,7 @@ function Sidebar() {
 			{playlists?.items?.map((playlist) => (
 				<SidebarOption title={playlist.name} />
 			))}
-		</div>
+		</aside>
 	);
 }
 

@@ -1,20 +1,3 @@
-* {
-	margin: 0;
-}
-
-*::-webkit-scrollbar {
-	width: 0.35rem;
-}
-
-*::-webkit-scrollbar-thumb {
-	border-radius: 999px;
-	background: #282828;
-}
-
-*::-webkit-scrollbar-track {
-	background: none;
-}
-
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",

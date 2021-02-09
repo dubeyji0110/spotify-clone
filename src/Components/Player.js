@@ -6,13 +6,13 @@ import Sidebar from "./Sidebar";
 
 function Player({ spotify }) {
 	return (
-		<div className='player'>
+		<main className='player'>
 			<div className='player__body'>
 				<Sidebar />
 				<Body spotify={spotify} />
 			</div>
-			<Footer />
-		</div>
+			<Footer spotify={spotify} />
+		</main>
 	);
 }
 
